@@ -2,5 +2,5 @@
 Description= Copier les fichiers CSV
 [Service]
 Type=oneshot
-ExecStart=/home/peanutstick/Documents/scripts/python/bat-stat/change-csv.sh
+ExecStart=/path/to/the/same/directory/as/main.py/change-csv.sh #change it
 
