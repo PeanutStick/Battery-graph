@@ -1,5 +1,5 @@
 # Battery-graph
-it will display a graph in the terminal with the battery usage
+It will display a graph in the terminal with the battery usage
 # Install
 Copy ".service" and ".timer" files in:    
 /etc/systemd/system    
