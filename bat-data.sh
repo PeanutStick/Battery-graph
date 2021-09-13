@@ -10,5 +10,5 @@ currenttime=$( uptime | awk '{print $1}' )
 # Convert to epoch time and calculate difference.
 difference=$(( $(date -d "$currenttime" "+%s") - $(date -d "$upsince" "+%s") ))
 up=$(echo "$difference/60" | bc )
-echo "$up,$currenttime,$capacity,$status" >> /home/peanutstick/Documents/scripts/python/bat-stat/bat-data1.csv
+echo "$up,$currenttime,$capacity,$status" >> /path/to/the/same/directory/as/main.py/bat-data1.csv
 
