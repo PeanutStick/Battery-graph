@@ -5,13 +5,13 @@ x = []
 y = []
 x2 = []
 y2 = []
-with open('/home/peanutstick/Documents/scripts/python/bat-stat/bat-data1.csv','r') as csvfile:
+with open('/path/to/the/same/directory/as/main.py/bat-data1.csv','r') as csvfile: #change it
     plots = csv.reader(csvfile, delimiter=',')
     for row in plots:
         x.append(int(row[0]))
         y.append(int(row[2]))
 
-with open('/home/peanutstick/Documents/scripts/python/bat-stat/bat-data2.csv','r') as csvfile:
+with open('/path/to/the/same/directory/as/main.py/bat-data2.csv','r') as csvfile: #change it
     plots2 = csv.reader(csvfile, delimiter=',')
     for row in plots2:
         x2.append(int(row[0]))
