@@ -6,3 +6,5 @@ Copy ".service" and ".timer" files in:
 Execute:    
 sudo systemctl enable change-csv.service    
 sudo systemctl enable battery.service    
+# Screen
+![image](https://i.imgur.com/6pS8kg1.png)
