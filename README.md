@@ -6,7 +6,7 @@ Copy ".service" and ".timer" files in:
 Execute:    
 sudo systemctl enable change-csv.service    
 sudo systemctl enable battery.service
-    
+Change the path in every files where it's write "#change it"    
 You can create an alias like this:    
 alias bat="python3 /path/to/main.py"     
 # Screen
