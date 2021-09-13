@@ -1,0 +1,17 @@
+[Unit]
+
+Description=test
+
+
+
+[Timer]
+
+OnUnitActiveSec=10s
+
+OnBootSec=60s
+
+
+
+[Install]
+
+WantedBy=timers.target

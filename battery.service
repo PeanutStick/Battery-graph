@@ -1,0 +1,7 @@
+[Unit]
+Description=Récupèrer les données de la batterie
+[Service]
+Type=oneshot
+ExecStart=/bin/bash /home/peanutstick/Documents/scripts/python/bat-stat/bat-data.sh
+
+

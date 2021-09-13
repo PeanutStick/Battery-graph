@@ -1,0 +1,6 @@
+[Unit]
+Description= Copier les fichiers CSV
+[Service]
+Type=oneshot
+ExecStart=/home/peanutstick/Documents/scripts/python/bat-stat/change-csv.sh
+
